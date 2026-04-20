@@ -20,7 +20,7 @@ ul {
 }
 
 a {
- text-decoration: none;
+  text-decoration: none;
   color: inherit;
 }
 
@@ -89,6 +89,8 @@ a {
 
 .hero-button {
   font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
   background-color: #4d5ae5;
@@ -113,11 +115,14 @@ a {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  font-weight: 500; 
+  font-weight: 500;
 }
 
 .benefits-text {
+  font-size: 16px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
+  color: #434455;
 }
 
 /* ================= TEAM ================= */
@@ -125,7 +130,6 @@ a {
   background-color: #f4f4fd;
 }
 
-/* ✅ тепер через клас, не через .team li */
 .team-item {
   background-color: #ffffff;
 }
@@ -134,12 +138,15 @@ a {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  font-weight: 500; 
+  font-weight: 500;
   text-align: center;
 }
 
 .team-position {
+  font-size: 16px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
+  color: #434455;
   text-align: center;
 }
 
@@ -152,10 +159,12 @@ a {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  font-weight: 500; 
+  font-weight: 500;
 }
 
 .portfolio-item-category {
+  font-size: 16px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
