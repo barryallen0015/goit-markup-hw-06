@@ -415,4 +415,5 @@ button {
 
 .footer-social-wrap .social-list {
   gap: 16px;
+  justify-content: flex-start;
 }
