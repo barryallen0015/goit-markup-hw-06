@@ -81,6 +81,7 @@ button {
 }
 
 .footer-logo-link {
+  display: block;
   margin-bottom: 16px;
 }
 
@@ -88,9 +89,9 @@ button {
 .header {
   border-bottom: 1px solid #e7e9fc;
   box-shadow:
-    0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 2px 1px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16),
-    0px 2px 1px rgba(46, 47, 66, 0.08);
+    0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .header-container {
@@ -294,6 +295,11 @@ button {
   gap: 24px;
 }
 
+.footer-social-list {
+  justify-content: flex-start;
+  gap: 16px;
+}
+
 .social-item {
   width: 40px;
   height: 40px;
@@ -316,13 +322,13 @@ button {
   background-color: #404bbf;
 }
 
-.social-icon {
-  fill: currentColor;
-}
-
 .footer-social-link:hover,
 .footer-social-link:focus {
   background-color: #31d0aa;
+}
+
+.social-icon {
+  fill: currentColor;
 }
 
 /* ================= PORTFOLIO ================= */
@@ -411,9 +417,4 @@ button {
   font-weight: 500;
   color: #ffffff;
   letter-spacing: 0.02em;
-}
-
-.footer-social-wrap .social-list {
-  gap: 16px;
-  justify-content: flex-start;
 }
