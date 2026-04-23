@@ -720,7 +720,7 @@ button {
   left: 50% !important;
   transform: translate(-50%, -50%) !important;
 }
-.modal-toggle:checked ~ .backdrop {
+.modal-toggle:checked + .backdrop {
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
