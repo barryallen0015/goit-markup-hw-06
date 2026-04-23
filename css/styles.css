@@ -189,7 +189,9 @@ button {
 }
 
 .hero-button {
-  display: block;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   min-width: 169px;
   padding: 16px 32px;
   margin: 0 auto;
