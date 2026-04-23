@@ -747,3 +747,12 @@ label.hero-button {
   display: block;
   text-align: center;
 }
+#modal-toggle:checked + .backdrop {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+#modal-toggle:checked + .backdrop .modal {
+  transform: translate(-50%, -50%);
+}
