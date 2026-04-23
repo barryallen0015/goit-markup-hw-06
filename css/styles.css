@@ -427,7 +427,7 @@ button {
 /* ================= SUBSCRIBE ================= */
 
 .footer-subscribe-wrap {
-  margin-left: 80px;
+  margin-left: auto;
 }
 
 .subscribe-form {
@@ -439,18 +439,25 @@ button {
   width: 264px;
   height: 40px;
   padding-left: 16px;
-  border: 1px solid rgba(255, 255, 255, 0.3);
+
+  border: 1px solid #ffffff;
   border-radius: 4px;
+
   background-color: transparent;
   color: #ffffff;
   outline: transparent;
+
   font-size: 12px;
   line-height: 2;
   letter-spacing: 0.04em;
+
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.subscribe-input::placeholder {
-  color: #ffffff;
+.subscribe-input:focus {
+  border-color: #31d0aa;
 }
 
 .subscribe-btn {
@@ -474,7 +481,7 @@ button {
 
 .subscribe-btn:hover,
 .subscribe-btn:focus {
-  background-color: #404bbf;
+  background-color: #31d0aa;
 }
 
 .subscribe-icon {
@@ -569,6 +576,7 @@ button {
 }
 
 .modal-close-icon {
+  fill: #2e2f42;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -639,12 +647,13 @@ button {
   outline: transparent;
 
   resize: none;
+
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-checkbox-wrap {
-  margin: 16px 0 24px;
+.modal-textarea:focus {
+  border-color: #4d5ae5;
 }
-
 .checkbox-label {
   font-size: 12px;
   color: #8e8f99;
@@ -663,7 +672,10 @@ button {
   align-items: center;
   justify-content: center;
 
-  fill: transparent;
+  transition:
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-checkbox:checked + .checkbox-label .checkbox-custom {
@@ -674,6 +686,7 @@ button {
 
 .privacy-link {
   color: #4d5ae5;
+  text-decoration: underline;
 }
 
 .modal-submit-btn {
@@ -691,6 +704,8 @@ button {
 
   font-weight: 500;
   cursor: pointer;
+
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
