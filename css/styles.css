@@ -266,7 +266,7 @@ button {
 }
 .hero-button {
   display: block;
-
+  align-self: center;
   min-width: 169px;
   height: 56px;
 
