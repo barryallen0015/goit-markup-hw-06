@@ -75,3 +75,6 @@
   />
 </symbol>
 </svg>
+<symbol id="icon-menu" viewBox="0 0 24 24">
+  <path d="M3 6h18M3 12h18M3 18h18"/>
+</symbol>
