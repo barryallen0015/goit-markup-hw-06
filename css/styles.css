@@ -1012,7 +1012,26 @@ button {
   display: flex;
   flex-direction: column;
 }
+.menu-close-btn {
+  position: absolute;
+  top: 24px;
+  right: 24px;
 
+  width: 24px;
+  height: 24px;
+
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+
+  background-color: #e7e9fc;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 0;
+}
 .mobile-menu-bottom {
   margin-top: auto;
 }
