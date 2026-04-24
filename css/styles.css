@@ -1152,3 +1152,35 @@ button {
       url("../images/hero-bg.jpg");
   }
 }
+/* ===== FINAL HERO + TABLET CONTACTS FIX ===== */
+
+@media screen and (min-width: 768px) and (max-width: 1157px) {
+  .contacts-link {
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .hero {
+    max-width: 1440px !important;
+    padding: 188px 0 !important;
+
+    background-image:
+      linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+      url("../images/hero-bg.jpg") !important;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+}
+
+@media screen and (min-width: 1158px) and (min-resolution: 192dpi) {
+  .hero {
+    background-image:
+      linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+      url("../images/hero-bg-2x.jpg") !important;
+  }
+}
