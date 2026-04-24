@@ -242,7 +242,7 @@ button {
 @media screen and (min-width: 1158px) and (min-resolution: 192dpi) {
   .hero {
     background-image:
-      linear-gradient(rgba(46,47,66,.7), rgba(46,47,66,.7)),
+      linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
       url("../images/hero-bg-2x.jpg");
   }
 }
@@ -1112,11 +1112,12 @@ button {
     gap: 12px;
   }
 
-  .contacts-link {
-    padding: 0;
-    font-size: 12px;
-    line-height: 1.17;
-  }
+ .contacts-link {
+  padding: 0;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+}
 }
 
 /* DESKTOP */
@@ -1139,5 +1140,15 @@ button {
 @media screen and (min-width: 768px) {
   .modal {
     padding: 72px 24px 24px;
+  }
+}
+@media screen and (min-width: 1158px) {
+  .hero {
+    max-width: 1440px;
+    padding: 188px 0;
+
+    background-image:
+      linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+      url("../images/hero-bg.jpg");
   }
 }
