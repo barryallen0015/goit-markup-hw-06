@@ -368,12 +368,14 @@ button {
 
   .benefits-icon-box {
     display: flex;
+    margin-bottom: 8px;
   }
 
   .benefits-title {
-    font-size: 20px;
-    line-height: 1.2;
-  }
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 500;
+}
 
   .benefits-text {
     font-weight: 400;
@@ -578,10 +580,12 @@ button {
 }
 
 .footer-logo-wrap {
-  margin-right: 0;
+  text-align: left;
+}
+.footer-logo {
+  display: block;
   text-align: center;
 }
-
 .footer-social-wrap {
   text-align: center;
 }
@@ -1010,7 +1014,10 @@ button {
 .mobile-menu-bottom {
   margin-top: auto;
 }
-
+.mobile-menu .social-list {
+  justify-content: flex-start;
+  gap: 40px;
+}
 @media screen and (min-width: 768px) {
   .mobile-menu {
     display: none;
