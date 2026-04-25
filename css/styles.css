@@ -589,8 +589,9 @@ button {
 }
 
 .footer-logo-wrap {
-  text-align: left;
+  text-align: center;
 }
+
 .footer-logo {
   display: block;
   text-align: center;
@@ -628,7 +629,7 @@ button {
 @media screen and (min-width: 768px) {
   .footer-container {
     width: 584px;
-    flex-direction: row;
+    display: flex;
     flex-wrap: wrap;
     align-items: baseline;
     justify-content: flex-start;
@@ -651,10 +652,12 @@ button {
 /* desktop */
 @media screen and (min-width: 1158px) {
   .footer-container {
-    width: auto;
-    flex-wrap: nowrap;
-    gap: 0;
-  }
+  width: 1158px;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: baseline;
+  gap: 0;
+}
 
   .footer-logo-wrap {
     margin-right: 120px;
