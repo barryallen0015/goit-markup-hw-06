@@ -597,19 +597,31 @@ button {
 }
 
 .footer-logo {
-  display: block;
-  text-align: center;
+  color: #f4f4fd;
 }
+
 .footer-social-wrap {
-  text-align: center;
+  text-align: left;
 }
 .footer-social-title {
   margin-bottom: 16px;
+  color: #ffffff;
 }
 
 .footer-subscribe-wrap {
   margin-left: 0;
-  text-align: center;
+  text-align: left;
+}
+
+@media screen and (max-width: 767px) {
+  .footer-logo-link,
+  .footer-social-title {
+    text-align: center;
+  }
+
+  .subscribe-form {
+    align-items: center;
+  }
 }
 
 .subscribe-form {
