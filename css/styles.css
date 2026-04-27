@@ -644,14 +644,18 @@ button {
 /* tablet */
 @media screen and (min-width: 768px) {
   .footer-container {
-    width: 584px;
+    max-width: 584px;
+    margin: 0 auto;
+
     display: flex;
     flex-wrap: wrap;
     align-items: baseline;
     justify-content: flex-start;
+
     column-gap: 24px;
     row-gap: 72px;
   }
+}
 
   .footer-logo-wrap,
   .footer-social-wrap,
@@ -668,12 +672,14 @@ button {
 /* desktop */
 @media screen and (min-width: 1158px) {
   .footer-container {
-  width: 1158px;
-  display: flex;
-  flex-wrap: nowrap;
-  align-items: baseline;
-  gap: 0;
-}
+    width: 100%;
+    max-width: 100%;
+
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: baseline;
+    gap: 0;
+  }
 
   .footer-logo-wrap {
     margin-right: 120px;
@@ -683,7 +689,6 @@ button {
     margin-left: auto;
   }
 }
-
 /* ================= SUBSCRIBE ================= */
 
 
