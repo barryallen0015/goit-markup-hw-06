@@ -102,7 +102,7 @@ button {
 .footer-logo-link {
   display: block;
   margin-bottom: 16px;
-  text-align: center;
+  
 }
 
 /* ================= HEADER ================= */
@@ -641,6 +641,12 @@ button {
   justify-content: center;
 }
 
+@media screen and (max-width: 767px) {
+  .footer-logo-link {
+    text-align: center;
+  }
+}
+
 /* tablet */
 @media screen and (min-width: 768px) {
   .footer-container {
@@ -655,7 +661,7 @@ button {
     column-gap: 24px;
     row-gap: 72px;
   }
-}
+
 
   .footer-logo-wrap,
   .footer-social-wrap,
@@ -689,6 +695,8 @@ button {
     margin-left: auto;
   }
 }
+
+
 /* ================= SUBSCRIBE ================= */
 
 
