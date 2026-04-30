@@ -661,14 +661,16 @@ button {
     column-gap: 24px;
     row-gap: 72px;
   }
-    .footer-logo-wrap {
-    max-width: 264px;
+  
+  .footer-logo-wrap {
+    width: 264px;
+    margin-right: 24px;
   }
-
+  
   .footer-social-wrap {
-    max-width: 208px;
+    width: 208px;
   }
-
+  
   .footer-subscribe-wrap {
     width: 100%;
   }
