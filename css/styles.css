@@ -709,6 +709,7 @@ button {
   }
 
   .footer-subscribe-wrap {
+    width: auto;      
     margin-left: auto;
   }
 
