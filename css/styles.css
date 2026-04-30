@@ -686,9 +686,9 @@ button {
     margin: 0 auto;
 
     display: flex;
-    flex-wrap: nowrap;           /* ← КЛЮЧ */
+    flex-wrap: nowrap;           
     align-items: flex-start;
-    justify-content: flex-start; /* ← КЛЮЧ */
+    justify-content: flex-start; 
   }
 
   .footer-logo-wrap {
@@ -700,11 +700,8 @@ button {
   }
 
   .footer-subscribe-wrap {
-    width: auto;        /* ← СБРОС tablet */
-    margin-left: auto;  /* ← вправо */
-    margin-top: 24px;   /* ← как в макете */
+  width: auto !important;
   }
-
   .footer-social-list {
     justify-content: flex-start;
   }
