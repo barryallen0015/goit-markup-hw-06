@@ -653,18 +653,15 @@ button {
     margin: 0 auto;
 
     display: flex;
-    flex-direction: row;   
+    flex-direction: row;
     flex-wrap: wrap;
 
-    align-items: flex-start !important;
+    align-items: flex-start;
+    column-gap: 24px;
   }
 
   .footer-logo-wrap {
     width: 264px;
-  }
-
-  .footer-text {
-    max-width: 264px;
   }
 
   .footer-social-wrap {
@@ -677,6 +674,11 @@ button {
     margin-top: 72px;
   }
 
+  .footer-social-list {
+  justify-content: center;
+}
+
+@media screen and (min-width: 768px) {
   .footer-social-list {
     justify-content: flex-start;
   }
