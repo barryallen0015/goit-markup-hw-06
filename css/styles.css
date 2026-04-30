@@ -689,7 +689,7 @@ button {
     display: flex;
     flex-wrap: nowrap;
 
-    align-items: baseline;
+    align-items: flex-start;
     justify-content: space-between;
 
     text-align: left;
@@ -704,15 +704,15 @@ button {
   }
 
   .footer-subscribe-wrap {
-    width: auto;      
+    width: auto;
     margin-left: auto;
+    margin-top: 24px; 
   }
 
   .footer-social-list {
     justify-content: flex-start;
   }
 }
-
 /* ================= SUBSCRIBE ================= */
 
 
