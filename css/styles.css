@@ -661,7 +661,17 @@ button {
     column-gap: 24px;
     row-gap: 72px;
   }
+    .footer-logo-wrap {
+    max-width: 264px;
+  }
 
+  .footer-social-wrap {
+    max-width: 208px;
+  }
+
+  .footer-subscribe-wrap {
+    width: 100%;
+  }
 
   .footer-logo-wrap,
   .footer-social-wrap,
@@ -678,17 +688,17 @@ button {
 /* desktop */
 @media screen and (min-width: 1158px) {
   .footer-container {
-    width: 100%;
-    max-width: 100%;
-
     display: flex;
-    flex-wrap: nowrap;
     align-items: baseline;
-    gap: 0;
+    justify-content: flex-start;
   }
 
   .footer-logo-wrap {
     margin-right: 120px;
+  }
+
+  .footer-social-wrap {
+    margin-right: 80px;
   }
 
   .footer-subscribe-wrap {
