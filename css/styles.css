@@ -682,12 +682,13 @@ button {
 /* desktop */
 @media screen and (min-width: 1158px) {
   .footer-container {
-  max-width: 1158px;
-  margin: 0 auto;
+    max-width: 1158px;
+    margin: 0 auto;
 
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start; 
+    display: flex;
+    flex-wrap: nowrap;           /* ← КЛЮЧ */
+    align-items: flex-start;
+    justify-content: flex-start; /* ← КЛЮЧ */
   }
 
   .footer-logo-wrap {
@@ -699,14 +700,9 @@ button {
   }
 
   .footer-subscribe-wrap {
-    margin-left: auto;
-  }
-
-  
-  .footer-subscribe-wrap {
-    width: auto;
-    margin-left: auto; 
-    margin-top: 24px;  
+    width: auto;        /* ← СБРОС tablet */
+    margin-left: auto;  /* ← вправо */
+    margin-top: 24px;   /* ← как в макете */
   }
 
   .footer-social-list {
