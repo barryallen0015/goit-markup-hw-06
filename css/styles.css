@@ -649,35 +649,33 @@ button {
 
 /* tablet */
 @media screen and (min-width: 768px) {
-    .footer-container {
+  .footer-container {
     max-width: 584px;
     margin: 0 auto;
-  
+
     display: flex;
     flex-wrap: wrap;
-  
-    /* КЛЮЧЕВОЕ */
     align-items: flex-start;
   }
-  
-  /* левая колонка */
+
   .footer-logo-wrap {
     width: 264px;
   }
-  
-  /* правая колонка */
+
+  .footer-text {
+    max-width: 264px; /* ← ВОТ ЭТО НОВОЕ */
+  }
+
   .footer-social-wrap {
     width: 208px;
-    margin-left: auto; /* ← двигает вправо */
+    margin-left: auto;
   }
-  
-  /* вторая строка */
+
   .footer-subscribe-wrap {
     width: 100%;
     margin-top: 72px;
   }
-  
-  /* чтобы иконки не центрировались */
+
   .footer-social-list {
     justify-content: flex-start;
   }
