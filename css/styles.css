@@ -1256,3 +1256,13 @@ button {
       url("../images/hero-bg-2x.jpg") !important;
   }
 }
+
+@media screen and (min-width: 1158px) {
+  .footer-container {
+    align-items: flex-start !important;
+  }
+
+  .footer-subscribe-wrap {
+    margin-top: 0 !important;
+  }
+}
