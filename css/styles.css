@@ -654,10 +654,10 @@ button {
 
     display: flex;
     flex-wrap: wrap;
-
     align-items: flex-start;
-    justify-content: flex-start; /* ← важно */
+
     column-gap: 24px;
+    row-gap: 72px;
   }
 
   .footer-logo-wrap {
@@ -666,12 +666,11 @@ button {
 
   .footer-social-wrap {
     width: 208px;
-    margin-left: 0; /* ← убрали auto */
   }
 
   .footer-subscribe-wrap {
-    width: 264px;   /* ← под logo */
-    margin-top: 72px;
+    width: 264px;
+    margin-top: 0;
   }
 
   .footer-social-list {
