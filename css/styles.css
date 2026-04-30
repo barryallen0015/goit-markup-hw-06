@@ -675,9 +675,9 @@ button {
   }
 
   .footer-social-list {
-    justify-content: flex-start; /* ← сразу так */
+    justify-content: flex-start; 
   }
-} /* ← ЗАКРЫЛИ ПРАВИЛЬНО */
+} 
 
 /* desktop */
 @media screen and (min-width: 1158px) {
@@ -689,7 +689,7 @@ button {
     display: flex;
     flex-wrap: nowrap;
 
-    align-items: flex-start;
+    align-items: baseline;
     justify-content: space-between;
 
     text-align: left;
