@@ -683,16 +683,12 @@ button {
 @media screen and (min-width: 1158px) {
   .footer-container {
     max-width: 1158px;
-    width: 100%;
     margin: 0 auto;
 
     display: flex;
-    flex-wrap: nowrap;
-
-    align-items: flex-start !important; 
-    justify-content: space-between;
-
-    text-align: left;
+    align-items: baseline;   /* ← ключ */
+    justify-content: flex-start;
+    gap: 0;
   }
 
   .footer-logo-wrap {
@@ -704,8 +700,13 @@ button {
   }
 
   .footer-subscribe-wrap {
-    width: auto;
     margin-left: auto;
+  }
+
+  
+  .footer-subscribe-wrap {
+    width: auto;
+    margin-top: 0;
   }
 
   .footer-social-list {
