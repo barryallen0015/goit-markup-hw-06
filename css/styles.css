@@ -583,7 +583,7 @@ button {
 }
 .footer-container {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   gap: 72px;
 }
 
