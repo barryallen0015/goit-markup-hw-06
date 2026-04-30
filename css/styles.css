@@ -655,7 +655,7 @@ button {
 
     display: flex;
     flex-wrap: wrap;
-    align-items: flex-start;
+    align-items: baseline;
     justify-content: space-between;
 
     row-gap: 72px;
