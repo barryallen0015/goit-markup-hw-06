@@ -650,32 +650,37 @@ button {
 /* tablet */
 @media screen and (min-width: 768px) {
   .footer-container {
-    max-width: 584px;
-    margin: 0 auto;
+  max-width: 584px;
+  margin: 0 auto;
 
-    display: flex;
-    flex-wrap: wrap;
-    align-items: baseline;
-    justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
 
-    row-gap: 72px;
-  }
-  
-  .footer-logo-wrap {
-    width: 264px;
-  }
-  
-  .footer-social-wrap {
-    margin-top: 0;
-  }
-  
-  .footer-subscribe-wrap {
-    width: 100%;
-  }
+  /* КЛЮЧЕВОЕ */
+  align-items: flex-start;
+}
 
-  .footer-social-list {
-    justify-content: flex-start;
-  }
+/* левая колонка */
+.footer-logo-wrap {
+  width: 264px;
+}
+
+/* правая колонка */
+.footer-social-wrap {
+  width: 208px;
+  margin-left: auto; /* ← двигает вправо */
+}
+
+/* вторая строка */
+.footer-subscribe-wrap {
+  width: 100%;
+  margin-top: 72px;
+}
+
+/* чтобы иконки не центрировались */
+.footer-social-list {
+  justify-content: flex-start;
+}
 }
 
 /* desktop */
