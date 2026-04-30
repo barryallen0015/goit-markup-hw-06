@@ -1260,3 +1260,17 @@ button {
     align-items: flex-start !important;
   }
 }
+@media screen and (min-width: 1158px) {
+  .footer-container {
+    display: flex;
+    flex-wrap: nowrap !important;
+    align-items: flex-start !important;
+    justify-content: space-between !important;
+  }
+
+  .footer-subscribe-wrap {
+    width: auto !important;
+    margin-top: 0 !important;
+    margin-left: 0 !important;
+  }
+}
