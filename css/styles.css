@@ -700,7 +700,9 @@ button {
   }
 
   .footer-subscribe-wrap {
-  width: auto !important;
+  width: auto;
+  margin-left: auto;
+  margin-top: 24px;
   }
   .footer-social-list {
     justify-content: flex-start;
@@ -1254,9 +1256,5 @@ button {
 @media screen and (min-width: 1158px) {
   .footer-container {
     align-items: flex-start !important;
-  }
-
-  .footer-subscribe-wrap {
-    margin-top: 0 !important;
   }
 }
