@@ -689,8 +689,8 @@ button {
     display: flex;
     flex-wrap: nowrap;
 
-    align-items: flex-start;
     justify-content: space-between;
+    align-items: flex-start;
 
     text-align: left;
   }
@@ -703,12 +703,24 @@ button {
     margin-right: 80px;
   }
 
+  .footer-logo-wrap,
+  .footer-social-wrap,
+  .footer-subscribe-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
   .footer-subscribe-wrap {
     width: auto;
     margin-left: auto;
-    margin-top: 24px; 
+    align-self: flex-start; /* ← ВОТ ЭТО КЛЮЧ */
   }
 
+  .footer-social-list {
+    justify-content: flex-start;
+  }
+}
   .footer-social-list {
     justify-content: flex-start;
   }
