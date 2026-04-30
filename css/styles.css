@@ -688,13 +688,16 @@ button {
 @media screen and (min-width: 1158px) {
   .footer-container {
     max-width: 1158px;
+    width: 100%;             
     margin: 0 auto;
 
     display: flex;
     flex-wrap: nowrap;
 
-    align-items: flex-start;        
-    justify-content: space-between; 
+    align-items: flex-start;
+    justify-content: space-between;
+
+    text-align: left;         
   }
 
   .footer-logo-wrap {
@@ -706,7 +709,7 @@ button {
   }
 
   .footer-subscribe-wrap {
-    margin-left: 0;
+  margin-left: auto;
   }
 
   .footer-social-list {
