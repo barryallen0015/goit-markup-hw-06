@@ -653,10 +653,10 @@ button {
     margin: 0 auto;
 
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
 
     align-items: flex-start;
+    justify-content: flex-start; /* ← важно */
     column-gap: 24px;
   }
 
@@ -666,18 +666,18 @@ button {
 
   .footer-social-wrap {
     width: 208px;
-    margin-left: auto;
+    margin-left: 0; /* ← убрали auto */
   }
 
   .footer-subscribe-wrap {
-    width: 100%;
+    width: 264px;   /* ← под logo */
     margin-top: 72px;
   }
 
   .footer-social-list {
-    justify-content: flex-start; 
+    justify-content: flex-start;
   }
-} 
+}
 
 /* desktop */
 @media screen and (min-width: 1158px) {
