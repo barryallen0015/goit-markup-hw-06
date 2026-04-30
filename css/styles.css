@@ -653,10 +653,10 @@ button {
     margin: 0 auto;
 
     display: flex;
-    flex-direction: row;   /* ← ВОТ ЭТО ДОБАВЬ */
+    flex-direction: row;   
     flex-wrap: wrap;
 
-    align-items: flex-start;
+    align-items: flex-start !important;
   }
 
   .footer-logo-wrap {
