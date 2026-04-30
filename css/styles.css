@@ -655,32 +655,23 @@ button {
 
     display: flex;
     flex-wrap: wrap;
-    align-items: baseline;
-    justify-content: flex-start;
+    align-items: flex-start;
+    justify-content: space-between;
 
-    column-gap: 24px;
     row-gap: 72px;
   }
-  
+
   .footer-logo-wrap {
     width: 264px;
-    margin-right: 24px;
   }
-  
+
   .footer-social-wrap {
     width: 208px;
   }
-  
+
   .footer-subscribe-wrap {
     width: 100%;
   }
-
-  .footer-logo-wrap,
-  .footer-social-wrap,
-  .footer-subscribe-wrap {
-    text-align: left;
-  }
-
 
   .footer-social-list {
     justify-content: flex-start;
