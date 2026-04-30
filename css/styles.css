@@ -660,15 +660,15 @@ button {
 
     row-gap: 72px;
   }
-
+  
   .footer-logo-wrap {
     width: 264px;
   }
-
+  
   .footer-social-wrap {
-    width: 208px;
+    margin-left: auto;
   }
-
+  
   .footer-subscribe-wrap {
     width: 100%;
   }
